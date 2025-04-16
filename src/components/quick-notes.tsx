@@ -12,7 +12,7 @@ export const QuickNotes: React.FC<QuickNotesProps> = ({ notes, setNotes }) => {
     <div>
       <h2 className="text-lg font-semibold mb-2">Quick Notes</h2>
       <Textarea
-        placeholder="Jot down your notes here..."
+        placeholder="Pen down your notes here..."
         value={notes}
         onChange={(e) => setNotes(e.target.value)}
         className="w-full rounded-md shadow-sm"

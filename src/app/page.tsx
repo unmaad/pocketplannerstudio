@@ -52,7 +52,7 @@ export default function Home() {
         </SidebarContent>
         <SidebarFooter>
           <p className="text-xs text-muted-foreground">
-            Created by Firebase Studio
+            Was first created by Firebase Studio
           </p>
         </SidebarFooter>
       </Sidebar>
